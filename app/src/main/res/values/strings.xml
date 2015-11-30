@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BDRecetas</string>
+    <string name="anadir">Añadir nueva receta</string>
+    <string name="nombre">Nombre de la receta</string>
+    <string name="instrucciones">Pasos para la preparacion</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="anadir2">Añadir</string>
+    <string name="carne">Carne</string>
+    <string name="pescado">Pescado</string>
+    <string name="verdura">Verdura</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="añadirIng">Añadir Ingredientes</string>
+    <string name="ingrediente">Ingrediente</string>
+    <string name="categoria">Categoria</string>
+    <string name="borrar">Borrar</string>
+</resources>

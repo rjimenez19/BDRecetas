@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ingrediente1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:hint="@string/ingrediente"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ingrediente2"
+        android:layout_below="@+id/ingrediente1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:hint="@string/ingrediente"
+        android:layout_alignRight="@+id/ingrediente1"
+        android:layout_alignEnd="@+id/ingrediente1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ingrediente3"
+        android:layout_below="@+id/ingrediente2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:hint="@string/ingrediente"
+        android:layout_alignRight="@+id/ingrediente2"
+        android:layout_alignEnd="@+id/ingrediente2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ingrediente4"
+        android:hint="@string/ingrediente"
+        android:layout_below="@+id/ingrediente3"
+        android:layout_alignLeft="@+id/ingrediente3"
+        android:layout_alignStart="@+id/ingrediente3"
+        android:layout_alignRight="@+id/ingrediente3"
+        android:layout_alignEnd="@+id/ingrediente3" />
+
+</RelativeLayout>
